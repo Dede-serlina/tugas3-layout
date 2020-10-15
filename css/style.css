@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    font-family: 'Nunito', sans-serif;
+}
+
+.header{
+    background-color: rgb(232, 59, 88);
+    display: flex;
+    align-items: center;
+    text-align: center;
+    align-content: center;
+}
+
+.brand-kiri img, .brand-kanan img{
+    width: 200px;
+}
+
+.text-tenggah hr{
+    width: 30px;
+    border: 2px solid white;
+    margin: 5px auto;
+}
+
+.text-tenggah p{
+    color: white;
+    font-size: 18px;
+}
+
+.text-brand{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 100px;
+}
+
+.text-brand hr{
+    width: 100px;
+    border: 2px solid rgb(232, 59, 88);
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.footer{
+    display: flex;
+    margin-top: 60px;
+}
+
+.card{
+    background-color: rgb(232, 59, 88);
+    color: white;
+    text-align: center;
+    margin: 30px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.card img{
+    width: 30%;
+}
